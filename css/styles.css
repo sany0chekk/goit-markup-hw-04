@@ -410,8 +410,3 @@ main{
 .footer-social__list{
     gap: 16px;
 }
-
-.footer-social__icon{
-    width: 24px;
-    height: 24px;
-}
