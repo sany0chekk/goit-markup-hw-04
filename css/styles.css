@@ -103,6 +103,36 @@ main{
     max-width: 264px;
 }
 
+/*          SOCIAL         */
+.social-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.social-link{
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social-link:hover,
+.social-link:focus{
+    background-color: #31D0AA;
+}
+
 /*          HEADER          */
 .header{
     border-bottom: 1px solid #E7E9FC;
@@ -285,37 +315,10 @@ main{
     text-align: center;
 }
 
-.team-social{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 24px;
-}
-
-.team-social__link{
-    display: inline-block;
-    position: relative;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #4D5AE5;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .team-social__icon{
-    position: absolute;
-    top: 50%;
-    left: 50%;
     width: 16px;
     height: 16px;
-    transform: translate(-50%, -50%);
 }
-
-.team-social__link:hover,
-.team-social__link:focus{
-    background-color: #31D0AA;
-}
-
 /*          PORTFOLIO           */
 .portfolio-list{
     row-gap: 48px;
@@ -427,10 +430,6 @@ main{
 }
 
 .footer-social__icon{
-    position: absolute;
-    top: 50%;
-    left: 50%;
     width: 24px;
     height: 24px;
-    transform: translate(-50%, -50%);
 }
