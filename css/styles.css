@@ -139,7 +139,7 @@ main{
 /*          HEADER          */
 .header{
     border-bottom: 1px solid #E7E9FC;
-    box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container{
@@ -223,7 +223,7 @@ main{
 }
 /*          HERO            */
 .hero{
-    max-width: 1400px;
+    max-width: 1440px;
     padding: 188px 0;
     margin: 0 auto;
     background-color: #2E2F42;
@@ -409,4 +409,9 @@ main{
 
 .footer-social__list{
     gap: 16px;
+}
+
+.footer-social__link:hover,
+.footer-social__link:focus{
+    background-color: #31d0aa;
 }
